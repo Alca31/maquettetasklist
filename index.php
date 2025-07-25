@@ -1,4 +1,8 @@
-<?php require_once dirname(__DIR__).'/maquettetasklist/controller/connexUser.php'; //gestion de la connexion ?>
+<?php
+require_once dirname(__DIR__).'/maquettetasklist/controller/CRUD.php';
+require_once dirname(__DIR__).'/maquettetasklist/controller/connexUser.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

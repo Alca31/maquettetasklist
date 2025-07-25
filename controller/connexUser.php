@@ -1,7 +1,5 @@
-<?php 
-
-require_once dirname(__DIR__).'/controller/dbconnex.php';
-
+<?php
+require_once dirname(__DIR__).'/controller/CRUD.php'; //connexion à la base de donnée
 
 function userSession($id, $username){
 session_start();
@@ -96,6 +94,5 @@ function connex() {
     
 
 }
-   
 
 ?>

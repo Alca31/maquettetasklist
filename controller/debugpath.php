@@ -1,7 +1,7 @@
 <?php
 function debugpath() {
  echo "=== DEBUG REQUIRE ===<br>";
-$debug_path = dirname(__DIR__) . '/controller/dbconnex.php';
+$debug_path = dirname(__DIR__) . '/controller/connexUser.php';
 echo "Chemin : " . $debug_path . "<br>";
 echo "Fichier existe : " . (file_exists($debug_path) ? 'OUI' : 'NON') . "<br>";
 echo "Fichier lisible : " . (is_readable($debug_path) ? 'OUI' : 'NON') . "<br>";

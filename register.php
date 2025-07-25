@@ -1,4 +1,4 @@
-<?php require dirname(__DIR__).'/maquettetasklist/controller/registUser.php'; ?>
+<?php require dirname(__DIR__).'/maquettetasklist/controller/CRUD.php'; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
